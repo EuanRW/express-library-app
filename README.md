@@ -1,6 +1,6 @@
 # express-library-app
 
-[Live Demo]() :point_left:  (Under Construction)
+[Live Demo]() :point_left:  (Under Construction)  
 A basic Express Library webapp developed in order to learn about the "model, view, controller" paradigm, Express, MongoDB and using Node.js as a backend.
 
 ## Technologies used
