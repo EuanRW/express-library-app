@@ -8,17 +8,19 @@ var indexRouter = require("./routes/index");
 var usersRouter = require("./routes/users");
 const catalogRouter = require("./routes/catalog"); //Import routes for "catalog" area of site
 
+require('dotenv').config()
+
 var app = express();
 
 // Set up mongoose connection
-// const mongoose = require("mongoose");
-// mongoose.set('strictQuery', false);
-// const mongoDB = process.env.MONGO_DB_KEY
+const mongoose = require("mongoose");
+mongoose.set('strictQuery', false);
+const mongoDB = process.env.MONGO_DB_KEY
 
-// main().catch(err => console.log(err));
-// async function main() {
-//   await mongoose.connect(mongoDB);
-// }
+main().catch(err => console.log(err));
+async function main() {
+  await mongoose.connect(mongoDB);
+}
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
