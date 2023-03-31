@@ -1,4 +1,4 @@
-# express-skeleton-app
+# express-library-app
 
 Nodemon start
-SET DEBUG=express-locallibrary-tutorial:* & npm run devstart
+SET DEBUG=expresslibrary:* & npm run devstart
